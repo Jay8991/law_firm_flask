@@ -1,6 +1,7 @@
 Quick and lazy readme to document changes.
 
 10/29/21 17:40 CST by Frank
+
     Added where-we-work.html
         Linked where-we-work to contact-us and vice versa
         Added some css elements to custom.css
