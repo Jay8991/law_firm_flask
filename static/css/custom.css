@@ -1,0 +1,16 @@
+/* elements */
+h1 {
+    padding-left: 50px;
+}
+
+/* classes */
+
+.login-button {
+    margin-right: 50px;
+}
+
+.img-logo {
+    /* width: 12em; */
+    /* margin-top: 50px; */
+    margin-left: 100px;
+}
