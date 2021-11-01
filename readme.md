@@ -10,4 +10,13 @@ Quick and lazy readme to document changes.
     Copied images from contact-images folder back to images folder
         *Moving those images to a new folder broke some of the code in my page. I'd recommend copying images if you'd like to move them to a different folder or location to avoid breaking other code.
     Made subtle formatting changes to header and footer links to closer mirror the mockups. I didn't make the changes to Jay's contact-us page. I'd rather not change any of your formatting without you approving the changes first.
+
+
+    ## NEW CHANGE by Jay ##
+
+    10/31/21 9:02pm cst 
+    On top of what frank did, added who-we-are.html 
+    linked all of the pages including the links on the footer and logo
+    added the changes frank did on header and footer to all the files 
+    
     
