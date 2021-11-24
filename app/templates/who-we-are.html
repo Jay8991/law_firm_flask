@@ -1,0 +1,42 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+
+    <div class="row">
+        <div class="col-3 mt-3">
+            <div class="text-white mt-3 p-3 ml-5" style="background: url('./static/images/nav_side.jpg') no-repeat; background-size: cover;">
+                <h2 class="h5 text-left">WHO WE ARE</h2>
+                <hr class="border border-white">
+                <ul class="list-unstyled">
+                    <li class="pb-1" >Welcome</li>
+                    <li class="pb-1" >Attorneys</li>
+                    <li class="pb-1" >Staff</li>
+                    <li class="pb-1" >Reputation</li>
+                    <li class="pb-1" >History</li>
+                </ul>
+                <img class="img-fluid nav-link-image" src="{{ url_for( 'static', filename='images/content-navlink-where.jpg') }}" alt="link-where-image">
+                <h4 class="h6 m-0">Where We Work</h4>
+                <small>Find out more about our work coverage area</small>
+    
+            </div>
+        </div>
+        <div class="col-9">
+            <p class="mt-4 pr-5 mr-4">
+                Who are we? That is one of the most important questions a prospective client can ask us.
+                Our answer - one of the most respected law firms in the country that cares about your case,
+                your business, and solving your problem. We invite you to get to know our attorneys better and
+                understand the depth of our experience and talent we have in the links below.
+            </p>
+
+            <div class="">
+                <img src="https://via.placeholder.com/288x113" alt="" class="img-fluid who-we-are-image">
+                <img src="{{ url_for( 'static', filename='images/content-01-attorneys.jpg') }}" alt="" class="img-fluid who-we-are-image">
+                <img src="{{ url_for( 'static', filename='images/sub-01-staff.jpg') }}" alt="" class="img-fluid who-we-are-image">
+                <img src="{{ url_for( 'static', filename='images/sub-01-reputation.jpg') }}" alt="" class="img-fluid who-we-are-image">
+                <img src="{{ url_for( 'static', filename='images/sub-01-history.jpg') }}" alt="" class="img-fluid who-we-are-image">
+            </div>
+        </div>
+    </div>
+        
+
+{% endblock content %}
